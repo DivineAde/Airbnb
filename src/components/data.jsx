@@ -1,6 +1,6 @@
 export default [{
           id: 1,
-          img:  "./src/assets/katie-zaferes.png",
+          img:  "assets/katie-zaferes.png",
           star : "./src/assets/star.png",
           rating : "5.0" ,
           reviewCount : "(6)",
@@ -13,7 +13,7 @@ export default [{
           },      
           {
           id:2,
-          img: "./src/assets/mountain-bike.png",
+          img: "assets/mountain-bike.png",
           star : "./src/assets/star.png",
           rating : "5.0" ,
           reviewCount : "(6)",
@@ -26,7 +26,7 @@ export default [{
           },
           {
             id:3,
-          img:"./src/assets/wedding-photography.png",
+          img:"assets/wedding-photography.png",
           star : "./src/assets/star.png",
           rating : "5.0" ,
           reviewCount : "(6)",
@@ -39,7 +39,7 @@ export default [{
           },
           {
             id: 4,
-            img:"./src/assets/pexels-artem-saranin-1202841.jpg",
+            img:"assets/pexels-artem-saranin-1202841.jpg",
             star : "./src/assets/star.png",
             rating : "5.0" ,
             reviewCount : "(6)",
@@ -52,7 +52,7 @@ export default [{
             },
             {
               id: 5,
-              img:"./src/assets/pexels-eberhard-grossgasteiger-2098427.jpg",
+              img:"assets/pexels-eberhard-grossgasteiger-2098427.jpg",
               star : "./src/assets/star.png",
               rating : "5.0" ,
               reviewCount : "(6)",
@@ -65,7 +65,7 @@ export default [{
               },
               {
                 id: 6,
-                img:"./src/assets/pexels-james-wheeler-1486974.jpg",
+                img:"assets/pexels-james-wheeler-1486974.jpg",
                 star : "./src/assets/star.png",
                 rating : "5.0" ,
                 reviewCount : "(6)",
