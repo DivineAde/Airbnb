@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+  padding: 40px 36px;
+  display: flex;
+  box-shadow: 0px 2.98256px 7.4564px rgba( 0, 0, 0, 0.1);
+}
+
+.logo{
+  max-width: 100px;
+}
+
+.grid{
+  display: flex;
+  justify-content: center;
+}
+
+.grid-img{
+  max-width: 80%;
+}
+
+.hero{
+  margin-top: 20px;
+}
+
+.hero__para{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero__header{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sec-1{
+  box-shadow: 0px 2.98256px 7.4564px rgba( 0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+}
+
+.katie,.Wed,.byc{
+  width: 300px;
+  max-height: 400px;
+  margin: 20px 50px 20px 50px;
+  border-radius: 10px;
+}
+
+.stats{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.star{
+  width: 16px;
+  height: 16px;
+}
+
+.opacity{
+  color: gray;
+  font-weight: bold;
+}
+
+.card--para{
+  margin: 10px 50px 10px 50px;
+  font-size: 18px;
+}
+
+.thick{
+  font-weight: bolder;
+}
+
+.country{
+  margin-left: 10px;
+}
+
+@media screen and (max-width:868px) {
+
+  .cards{
+    flex-direction: column;
+  }
+
+  .card--list{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.card--list{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 50px;
+  padding: 40px;
+  overflow-x:scroll;
+}
+
+.card--badge{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  padding: 8px 7px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
